@@ -1,4 +1,9 @@
 #include<stdio.h>
+/**
+ * main - Empty point(its void)
+ * List
+ * Return: Is 0
+ */
 
 int main(void)
 
