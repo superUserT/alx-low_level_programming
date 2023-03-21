@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * main - puts a character
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
 
