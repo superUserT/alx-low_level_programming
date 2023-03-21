@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
-
 * lowercase
-
 * Return: true or false
-
 */
 
 int _islower(int c)
