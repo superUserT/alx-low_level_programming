@@ -1,25 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - checks 
- * return: 0;
+ * main -Test positivity of a function
+ * Return: 0
  */
 
+int main(void)
+{
+	int z;
 
-int main(void){
+	z = 0;
+	
+	positive_or_negetive(z);
 
-int z;
-
-printf("Infinite loop incoming :(\n");
-
-z = 0;
-
-/*while (z < 10)*/
-/*{*/
-/*putchar(z);*/
-/*}*/
-
-printf("Infinite loop avoided! \\o/\n");
-
-return (0);
+	return (0);
 }
