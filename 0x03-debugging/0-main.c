@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
-* main - Test positivity of a function
+* main - Test function for positive or negative
 * Return: 0
 */
 
 int main(void)
 {
+	int i;
 
-int i;
+	i = 0;
 
-i = 0;
+	positive_or_negetive(i);
 
-positive_or_negetive(i);
-
-return(0);
+	return (0);
 }
