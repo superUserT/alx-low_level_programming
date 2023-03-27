@@ -4,6 +4,7 @@
 /**
  * reset_to_98 - function takes a pointer and updates its value to 9
  * main - checks the code
+ * n - Is a pointer
  * Return: n
  */
 
