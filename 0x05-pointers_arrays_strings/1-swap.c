@@ -1,4 +1,5 @@
-#include <stdio.h> "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * swap_int - Swaps two pointers 
