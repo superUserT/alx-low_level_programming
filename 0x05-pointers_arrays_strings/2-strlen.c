@@ -8,7 +8,7 @@
  *Return: character
  */
 
-int strlen(chr *s)
+int strlen(char *s)
 {
 	int character  = 0;
 
