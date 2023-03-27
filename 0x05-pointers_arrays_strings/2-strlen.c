@@ -5,7 +5,7 @@
  * strlen - a function that returns the length of a string
  * @s: a char pointer
  * @character: An interger used to traverse through the char array
- *Return: character
+ *Return: character to string length
  */
 
 int strlen(char *s)
@@ -15,7 +15,7 @@ int strlen(char *s)
 	while(*s != '\0')
 	{
 		character++;
-		*s++;
+		s++;
 	}
-return (character);
+	return (character);
 }
