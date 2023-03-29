@@ -1,11 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- **_strcat - method that contencates two strings
+ *_strcat - method that contencates two strings
  *@i: an interger
  *@m: another interger
  *@*dest: a pointer
  *@*src: another pointer
+ *Return: void
  */
 
 
