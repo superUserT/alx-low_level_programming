@@ -1,5 +1,4 @@
-#include "main.h" 
-#include <stdio.h>
+#include "main.h"
 
 /**
 *_strncpy - Method that copies a string.
@@ -14,7 +13,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int m = 0;
 
-	while (n < m && src[m] != '\0')
+	while (m < n && src[m] != '\0')
 	{
 		dest[m] = src[m];
 		m++;
