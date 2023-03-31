@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
-*_strcat - method that contencates two strings
+*_strcat - contencates two strings
 *@i: an interger
 *@m: another interger
-*@*dest: a pointer
-*@*src: another pointer
+*@*dest: an input
+*@*src: another input
 *
 *Return: void
 */
-char *_strcat (char *dest, char *src)
+
+char *_strcat(char *dest, char *src)
 {
 	int i = 0;
 	int m = 0;
@@ -23,6 +24,7 @@ char *_strcat (char *dest, char *src)
 		i++;
 		m++;
 	}
+
 	dest[i] = '\0';
 	return (dest);
 }
