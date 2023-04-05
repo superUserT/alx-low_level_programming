@@ -19,7 +19,7 @@ void _print_rev_recursion(char *s)
 	while (*s != '\0')
 	{
 		count++;
-		p++;
+		s++;
 	
 
 		if (i < count / 2)
