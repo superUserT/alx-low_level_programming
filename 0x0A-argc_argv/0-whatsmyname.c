@@ -8,18 +8,10 @@
  *@printname: a char pointer 
  */
 
-int main (int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	char *printname = strrchr(argv[0], '/');
-	
-	if (printname == NULL)
-	{
-		printname = argv[0];
-	}
-	else
-	{
-		printname++;
-	}
-	printf("%s\n", printname);
+	printf("%s\n", *argv);
+
 	return (0);
 }
+
