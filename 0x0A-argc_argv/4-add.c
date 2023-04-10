@@ -47,8 +47,8 @@ int main(int argc, char *argv[])
 	counter = 1;
 
 	while (counter < argc)
-		if (check_num(argv[count]))
-
+	{
+		if (check_num(argv[counter]))
 		{
 			str2int = atoi(argv[counter]);
 			addition += str2int;
@@ -61,7 +61,6 @@ int main(int argc, char *argv[])
 
 		counter++;
 	}
-
 	printf("%d\n", addition);
 
 	return (0);
