@@ -1,0 +1,3 @@
+0x0E. C - Structures, typedef
+
+Structs in C programming language are user-defined data types that allow you to group together variables of different data types under a single name. They provide a convenient way to organize complex data structures and represent them as a single entity. Structs can be used to create more meaningful and descriptive variable names, improve program clarity, and make it easier to pass data between functions. With structs, you can define your own data types, which makes it easier to work with large, complex data structures. In C, a struct is defined using the "struct" keyword, followed by the struct name and a set of curly braces containing the member variables.
