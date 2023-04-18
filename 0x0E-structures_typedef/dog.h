@@ -14,7 +14,7 @@ struct dog {
 	char *name;
 	float age;
 	char *owner;
-}
+};
 
 typedef struct dog dog_type;
 
@@ -26,4 +26,3 @@ char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 
 #endif
-
