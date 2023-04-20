@@ -9,13 +9,20 @@
 
 int is_prime_number(int n)
 {
-	    if (i * i > n)
-	    {
-		    return (1);
-	    }
-	    if (n % i == 0)
-	    {
-		    return (0);
-	    }
-	    return (is_prime_helper(n, i + 1));
-}
+	if (n < 2)
+	{
+		return (0);
+	}
+	else if (n == 2)
+	{
+		return 1;  // 2 is prime
+    } else if (n % 2 == 0) {
+        return 0;  // n is not prime if it is even (except 2)
+    } else {
+        for (int i = 3; i*i <= n; i += 2) {
+            if (n % i == 0) {
+                return 0;  // n is not prime if it is divisible by i
+            }
+        }
+        return 1;
+    }
