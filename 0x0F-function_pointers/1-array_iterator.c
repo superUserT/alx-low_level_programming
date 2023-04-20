@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * array_iterator - prints each array elements on a new line
