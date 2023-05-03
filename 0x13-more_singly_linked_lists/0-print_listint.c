@@ -4,17 +4,19 @@
 
 /**
  * print_listint - prints all the elements of a linked list
- * @head: linked list of type listint_t
- * Return: Number of nodes
+ * @h: linked list of type to print
+ * Return: number of nodes
  */
 
 size_t print_listint(const listint_t *h)
 {
-	const listint *c = head;
+	size_t counter = 0;
 
-	while (c != NULL)
+	while (h)
 	{
-		printf("%d\n", current->n);
-		current = current->next;
+		printf("%d\n", h->n);
+		counter++;
+		h = h->next;
 	}
+	return (counter);
 }
