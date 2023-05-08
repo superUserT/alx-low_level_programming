@@ -1,3 +1,5 @@
+0x14-bit_manipulation
+
 Bit manipulation in C involves performing bitwise operations on the binary representation of integers, which is a sequence of bits consisting of 0s and 1s. Bitwise operations are used to manipulate individual bits or groups of bits in an integer.
 
 There are six bitwise operators in C: bitwise AND (`&`), bitwise OR (`|`), bitwise XOR (`^`), bitwise complement (`~`), left shift (`<<`), and right shift (`>>`). These operators allow us to perform logical operations on individual bits or groups of bits.
