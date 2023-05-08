@@ -1,4 +1,4 @@
-This directory contains files that explore memory allocation
+0x0B-malloc_free
 
 Memory Allocation in C
 Memory allocation is a critical concept in the C programming language, as it allows you to manage dynamic memory in your programs. In C, you can allocate and deallocate memory using built-in functions such as malloc, calloc, realloc, and free.
