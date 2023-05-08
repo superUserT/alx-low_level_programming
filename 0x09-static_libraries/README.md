@@ -1,3 +1,5 @@
+0x09-static_libraries
+
 This file contains programs and files pertaining to static libraries in c.
 
 Static libraries are collections of object files that are linked directly into an executable at compile time, resulting in a self-contained executable that can be run on any system without the need for the library to be installed. In C programming, static libraries are created using the ar command-line tool, and typically have the file extension .a.
