@@ -31,6 +31,8 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 
+
+
 /**
  * _puts - prints an input string
  * @str: the string to be printed
