@@ -45,7 +45,7 @@ int _strcmp(char *s1, char *s2)
  * _strncat - concatenates two strings
  * @dest: the destination buffer
  * @src: the source buffer
- *
+ * @n: counter variable
  * Return: pointer to destination buffer
  */
 char *_strncat(char *dest, char *src, int n)
